@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2D55922341D273000A1B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55912341D273000A1B6D /* AppDelegate.m */; };
+		BF2D55952341D273000A1B6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55942341D273000A1B6D /* SceneDelegate.m */; };
+		BF2D55982341D273000A1B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55972341D273000A1B6D /* ViewController.m */; };
+		BF2D559B2341D273000A1B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D55992341D273000A1B6D /* Main.storyboard */; };
+		BF2D559E2341D273000A1B6D /* ZHJPainter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF2D559C2341D273000A1B6D /* ZHJPainter.xcdatamodeld */; };
+		BF2D55A02341D274000A1B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2D559F2341D274000A1B6D /* Assets.xcassets */; };
+		BF2D55A32341D274000A1B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D55A12341D274000A1B6D /* LaunchScreen.storyboard */; };
+		BF2D55A62341D274000A1B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55A52341D274000A1B6D /* main.m */; };
+		BF2D55B02341D275000A1B6D /* ZHJPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55AF2341D275000A1B6D /* ZHJPainterTests.m */; };
+		BF2D55BB2341D275000A1B6D /* ZHJPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55BA2341D275000A1B6D /* ZHJPainterUITests.m */; };
+		BF2D55DD2341DBB5000A1B6D /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55DC2341DBB5000A1B6D /* UIViewController+Category.m */; };
+		BF2D55EA2341DC25000A1B6D /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55E02341DC25000A1B6D /* UIImage+Category.m */; };
+		BF2D55EB2341DC25000A1B6D /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55E42341DC25000A1B6D /* UIView+Category.m */; };
+		BF2D55EC2341DC25000A1B6D /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55E82341DC25000A1B6D /* UIColor+Category.m */; };
+		BF2D55F22341DE96000A1B6D /* UIFont+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55F12341DE96000A1B6D /* UIFont+Category.m */; };
+		BF2D55F72341E042000A1B6D /* ZHJScreenFitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55F62341E042000A1B6D /* ZHJScreenFitUtil.m */; };
+		BF2D55FA2341E291000A1B6D /* ZHJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55F92341E291000A1B6D /* ZHJBaseViewController.m */; };
+		BF2D55FD2341EBA6000A1B6D /* ZHJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55FC2341EBA6000A1B6D /* ZHJBaseNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2D55AC2341D275000A1B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2D55852341D273000A1B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2D558C2341D273000A1B6D;
+			remoteInfo = ZHJPainter;
+		};
+		BF2D55B72341D275000A1B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2D55852341D273000A1B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2D558C2341D273000A1B6D;
+			remoteInfo = ZHJPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2D558D2341D273000A1B6D /* ZHJPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D55902341D273000A1B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2D55912341D273000A1B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2D55932341D273000A1B6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF2D55942341D273000A1B6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF2D55962341D273000A1B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF2D55972341D273000A1B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF2D559A2341D273000A1B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2D559D2341D273000A1B6D /* ZHJPainter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZHJPainter.xcdatamodel; sourceTree = "<group>"; };
+		BF2D559F2341D274000A1B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2D55A22341D274000A1B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2D55A42341D274000A1B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2D55A52341D274000A1B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2D55AB2341D275000A1B6D /* ZHJPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D55AF2341D275000A1B6D /* ZHJPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJPainterTests.m; sourceTree = "<group>"; };
+		BF2D55B12341D275000A1B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2D55B62341D275000A1B6D /* ZHJPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D55BA2341D275000A1B6D /* ZHJPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJPainterUITests.m; sourceTree = "<group>"; };
+		BF2D55BC2341D275000A1B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2D55DB2341DBB5000A1B6D /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		BF2D55DC2341DBB5000A1B6D /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		BF2D55E02341DC25000A1B6D /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		BF2D55E22341DC25000A1B6D /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		BF2D55E42341DC25000A1B6D /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		BF2D55E52341DC25000A1B6D /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		BF2D55E72341DC25000A1B6D /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		BF2D55E82341DC25000A1B6D /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		BF2D55ED2341DD35000A1B6D /* ZHJMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJMacros.h; sourceTree = "<group>"; };
+		BF2D55EE2341DE1C000A1B6D /* ZHJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJPrefixHeader.pch; sourceTree = "<group>"; };
+		BF2D55F02341DE96000A1B6D /* UIFont+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Category.h"; sourceTree = "<group>"; };
+		BF2D55F12341DE96000A1B6D /* UIFont+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Category.m"; sourceTree = "<group>"; };
+		BF2D55F52341E042000A1B6D /* ZHJScreenFitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJScreenFitUtil.h; sourceTree = "<group>"; };
+		BF2D55F62341E042000A1B6D /* ZHJScreenFitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJScreenFitUtil.m; sourceTree = "<group>"; };
+		BF2D55F82341E291000A1B6D /* ZHJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJBaseViewController.h; sourceTree = "<group>"; };
+		BF2D55F92341E291000A1B6D /* ZHJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJBaseViewController.m; sourceTree = "<group>"; };
+		BF2D55FB2341EBA6000A1B6D /* ZHJBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJBaseNavigationController.h; sourceTree = "<group>"; };
+		BF2D55FC2341EBA6000A1B6D /* ZHJBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJBaseNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2D558A2341D273000A1B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55A82341D275000A1B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55B32341D275000A1B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2D55842341D273000A1B6D = {
+			isa = PBXGroup;
+			children = (
+				BF2D558F2341D273000A1B6D /* ZHJPainter */,
+				BF2D55AE2341D275000A1B6D /* ZHJPainterTests */,
+				BF2D55B92341D275000A1B6D /* ZHJPainterUITests */,
+				BF2D558E2341D273000A1B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2D558E2341D273000A1B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D558D2341D273000A1B6D /* ZHJPainter.app */,
+				BF2D55AB2341D275000A1B6D /* ZHJPainterTests.xctest */,
+				BF2D55B62341D275000A1B6D /* ZHJPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2D558F2341D273000A1B6D /* ZHJPainter */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55CA2341D7B9000A1B6D /* SceneDelegate */,
+				BF2D55C92341D7AB000A1B6D /* AppDelegate */,
+				BF2D55CB2341D7CE000A1B6D /* Supporting */,
+				BF2D55D62341DAFF000A1B6D /* Define */,
+				BF2D55D42341DA92000A1B6D /* Base */,
+				BF2D55D72341DB29000A1B6D /* Categories */,
+				BF2D55D82341DB41000A1B6D /* Libraries */,
+				BF2D55F32341E000000A1B6D /* Utilities */,
+				BF2D55D52341DAA2000A1B6D /* Modules */,
+				BF2D55D92341DB53000A1B6D /* Resources */,
+			);
+			path = ZHJPainter;
+			sourceTree = "<group>";
+		};
+		BF2D55AE2341D275000A1B6D /* ZHJPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55AF2341D275000A1B6D /* ZHJPainterTests.m */,
+				BF2D55B12341D275000A1B6D /* Info.plist */,
+			);
+			path = ZHJPainterTests;
+			sourceTree = "<group>";
+		};
+		BF2D55B92341D275000A1B6D /* ZHJPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55BA2341D275000A1B6D /* ZHJPainterUITests.m */,
+				BF2D55BC2341D275000A1B6D /* Info.plist */,
+			);
+			path = ZHJPainterUITests;
+			sourceTree = "<group>";
+		};
+		BF2D55C82341D7A1000A1B6D /* ZHJCanvasViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZHJCanvasViewController;
+			sourceTree = "<group>";
+		};
+		BF2D55C92341D7AB000A1B6D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55902341D273000A1B6D /* AppDelegate.h */,
+				BF2D55912341D273000A1B6D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BF2D55CA2341D7B9000A1B6D /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55932341D273000A1B6D /* SceneDelegate.h */,
+				BF2D55942341D273000A1B6D /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		BF2D55CB2341D7CE000A1B6D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55962341D273000A1B6D /* ViewController.h */,
+				BF2D55972341D273000A1B6D /* ViewController.m */,
+				BF2D55992341D273000A1B6D /* Main.storyboard */,
+				BF2D559F2341D274000A1B6D /* Assets.xcassets */,
+				BF2D55A12341D274000A1B6D /* LaunchScreen.storyboard */,
+				BF2D55A42341D274000A1B6D /* Info.plist */,
+				BF2D55A52341D274000A1B6D /* main.m */,
+				BF2D559C2341D273000A1B6D /* ZHJPainter.xcdatamodeld */,
+				BF2D55EE2341DE1C000A1B6D /* ZHJPrefixHeader.pch */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BF2D55CF2341D848000A1B6D /* ZHJPaletteViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZHJPaletteViewController;
+			sourceTree = "<group>";
+		};
+		BF2D55D32341DA10000A1B6D /* ZHJThumbnailViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZHJThumbnailViewController;
+			sourceTree = "<group>";
+		};
+		BF2D55D42341DA92000A1B6D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55F82341E291000A1B6D /* ZHJBaseViewController.h */,
+				BF2D55F92341E291000A1B6D /* ZHJBaseViewController.m */,
+				BF2D55FB2341EBA6000A1B6D /* ZHJBaseNavigationController.h */,
+				BF2D55FC2341EBA6000A1B6D /* ZHJBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF2D55D52341DAA2000A1B6D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55C82341D7A1000A1B6D /* ZHJCanvasViewController */,
+				BF2D55CF2341D848000A1B6D /* ZHJPaletteViewController */,
+				BF2D55D32341DA10000A1B6D /* ZHJThumbnailViewController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BF2D55D62341DAFF000A1B6D /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55ED2341DD35000A1B6D /* ZHJMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		BF2D55D72341DB29000A1B6D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55EF2341DE74000A1B6D /* UIFont */,
+				BF2D55E62341DC25000A1B6D /* UIColor */,
+				BF2D55DE2341DC25000A1B6D /* UIImage */,
+				BF2D55E32341DC25000A1B6D /* UIView */,
+				BF2D55DA2341DBB5000A1B6D /* UIViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BF2D55D82341DB41000A1B6D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BF2D55D92341DB53000A1B6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF2D55DA2341DBB5000A1B6D /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55DB2341DBB5000A1B6D /* UIViewController+Category.h */,
+				BF2D55DC2341DBB5000A1B6D /* UIViewController+Category.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		BF2D55DE2341DC25000A1B6D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55E22341DC25000A1B6D /* UIImage+Category.h */,
+				BF2D55E02341DC25000A1B6D /* UIImage+Category.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		BF2D55E32341DC25000A1B6D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55E52341DC25000A1B6D /* UIView+Category.h */,
+				BF2D55E42341DC25000A1B6D /* UIView+Category.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BF2D55E62341DC25000A1B6D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55E72341DC25000A1B6D /* UIColor+Category.h */,
+				BF2D55E82341DC25000A1B6D /* UIColor+Category.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		BF2D55EF2341DE74000A1B6D /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55F02341DE96000A1B6D /* UIFont+Category.h */,
+				BF2D55F12341DE96000A1B6D /* UIFont+Category.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		BF2D55F32341E000000A1B6D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55F42341E01B000A1B6D /* ZHJScreenFitUtil */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BF2D55F42341E01B000A1B6D /* ZHJScreenFitUtil */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D55F52341E042000A1B6D /* ZHJScreenFitUtil.h */,
+				BF2D55F62341E042000A1B6D /* ZHJScreenFitUtil.m */,
+			);
+			path = ZHJScreenFitUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2D558C2341D273000A1B6D /* ZHJPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2D55BF2341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainter" */;
+			buildPhases = (
+				BF2D55892341D273000A1B6D /* Sources */,
+				BF2D558A2341D273000A1B6D /* Frameworks */,
+				BF2D558B2341D273000A1B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHJPainter;
+			productName = ZHJPainter;
+			productReference = BF2D558D2341D273000A1B6D /* ZHJPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2D55AA2341D275000A1B6D /* ZHJPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2D55C22341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainterTests" */;
+			buildPhases = (
+				BF2D55A72341D275000A1B6D /* Sources */,
+				BF2D55A82341D275000A1B6D /* Frameworks */,
+				BF2D55A92341D275000A1B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2D55AD2341D275000A1B6D /* PBXTargetDependency */,
+			);
+			name = ZHJPainterTests;
+			productName = ZHJPainterTests;
+			productReference = BF2D55AB2341D275000A1B6D /* ZHJPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2D55B52341D275000A1B6D /* ZHJPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2D55C52341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainterUITests" */;
+			buildPhases = (
+				BF2D55B22341D275000A1B6D /* Sources */,
+				BF2D55B32341D275000A1B6D /* Frameworks */,
+				BF2D55B42341D275000A1B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2D55B82341D275000A1B6D /* PBXTargetDependency */,
+			);
+			name = ZHJPainterUITests;
+			productName = ZHJPainterUITests;
+			productReference = BF2D55B62341D275000A1B6D /* ZHJPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2D55852341D273000A1B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jun Zhou";
+				TargetAttributes = {
+					BF2D558C2341D273000A1B6D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BF2D55AA2341D275000A1B6D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BF2D558C2341D273000A1B6D;
+					};
+					BF2D55B52341D275000A1B6D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BF2D558C2341D273000A1B6D;
+					};
+				};
+			};
+			buildConfigurationList = BF2D55882341D273000A1B6D /* Build configuration list for PBXProject "ZHJPainter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2D55842341D273000A1B6D;
+			productRefGroup = BF2D558E2341D273000A1B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2D558C2341D273000A1B6D /* ZHJPainter */,
+				BF2D55AA2341D275000A1B6D /* ZHJPainterTests */,
+				BF2D55B52341D275000A1B6D /* ZHJPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2D558B2341D273000A1B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D55A32341D274000A1B6D /* LaunchScreen.storyboard in Resources */,
+				BF2D55A02341D274000A1B6D /* Assets.xcassets in Resources */,
+				BF2D559B2341D273000A1B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55A92341D275000A1B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55B42341D275000A1B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2D55892341D273000A1B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D55A62341D274000A1B6D /* main.m in Sources */,
+				BF2D55EB2341DC25000A1B6D /* UIView+Category.m in Sources */,
+				BF2D55F22341DE96000A1B6D /* UIFont+Category.m in Sources */,
+				BF2D55982341D273000A1B6D /* ViewController.m in Sources */,
+				BF2D55FA2341E291000A1B6D /* ZHJBaseViewController.m in Sources */,
+				BF2D55922341D273000A1B6D /* AppDelegate.m in Sources */,
+				BF2D559E2341D273000A1B6D /* ZHJPainter.xcdatamodeld in Sources */,
+				BF2D55DD2341DBB5000A1B6D /* UIViewController+Category.m in Sources */,
+				BF2D55952341D273000A1B6D /* SceneDelegate.m in Sources */,
+				BF2D55EA2341DC25000A1B6D /* UIImage+Category.m in Sources */,
+				BF2D55EC2341DC25000A1B6D /* UIColor+Category.m in Sources */,
+				BF2D55F72341E042000A1B6D /* ZHJScreenFitUtil.m in Sources */,
+				BF2D55FD2341EBA6000A1B6D /* ZHJBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55A72341D275000A1B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D55B02341D275000A1B6D /* ZHJPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D55B22341D275000A1B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D55BB2341D275000A1B6D /* ZHJPainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2D55AD2341D275000A1B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2D558C2341D273000A1B6D /* ZHJPainter */;
+			targetProxy = BF2D55AC2341D275000A1B6D /* PBXContainerItemProxy */;
+		};
+		BF2D55B82341D275000A1B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2D558C2341D273000A1B6D /* ZHJPainter */;
+			targetProxy = BF2D55B72341D275000A1B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF2D55992341D273000A1B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2D559A2341D273000A1B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2D55A12341D274000A1B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2D55A22341D274000A1B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2D55BD2341D275000A1B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2D55BE2341D275000A1B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2D55C02341D275000A1B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				GCC_PREFIX_HEADER = ZHJPainter/Supporting/ZHJPrefixHeader.pch;
+				INFOPLIST_FILE = ZHJPainter/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2D55C12341D275000A1B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				GCC_PREFIX_HEADER = ZHJPainter/Supporting/ZHJPrefixHeader.pch;
+				INFOPLIST_FILE = ZHJPainter/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF2D55C32341D275000A1B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				INFOPLIST_FILE = ZHJPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJPainter.app/ZHJPainter";
+			};
+			name = Debug;
+		};
+		BF2D55C42341D275000A1B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				INFOPLIST_FILE = ZHJPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJPainter.app/ZHJPainter";
+			};
+			name = Release;
+		};
+		BF2D55C62341D275000A1B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				INFOPLIST_FILE = ZHJPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHJPainter;
+			};
+			name = Debug;
+		};
+		BF2D55C72341D275000A1B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M3BD9RSNM;
+				INFOPLIST_FILE = ZHJPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.ZHJPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHJPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2D55882341D273000A1B6D /* Build configuration list for PBXProject "ZHJPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2D55BD2341D275000A1B6D /* Debug */,
+				BF2D55BE2341D275000A1B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2D55BF2341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2D55C02341D275000A1B6D /* Debug */,
+				BF2D55C12341D275000A1B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2D55C22341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2D55C32341D275000A1B6D /* Debug */,
+				BF2D55C42341D275000A1B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2D55C52341D275000A1B6D /* Build configuration list for PBXNativeTarget "ZHJPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2D55C62341D275000A1B6D /* Debug */,
+				BF2D55C72341D275000A1B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF2D559C2341D273000A1B6D /* ZHJPainter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF2D559D2341D273000A1B6D /* ZHJPainter.xcdatamodel */,
+			);
+			currentVersion = BF2D559D2341D273000A1B6D /* ZHJPainter.xcdatamodel */;
+			path = ZHJPainter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF2D55852341D273000A1B6D /* Project object */;
+}

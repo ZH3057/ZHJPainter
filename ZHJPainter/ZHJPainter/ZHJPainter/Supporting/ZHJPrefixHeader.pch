@@ -1,0 +1,33 @@
+//
+//  ZHJPrefixHeader.pch
+//  ZHJPainter
+//
+//  Created by Jun Zhou on 2019/9/30.
+//  Copyright © 2019 Jun Zhou. All rights reserved.
+//
+
+#ifndef ZHJPrefixHeader_pch
+#define ZHJPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+// category
+#import "UIView+Category.h"
+#import "UIColor+Category.h"
+#import "UIImage+Category.h"
+#import "UIFont+Category.h"
+#import "UIViewController+Category.h"
+
+// lib
+
+// constant
+
+// top tasks
+#import "ZHJScreenFitUtil.h"
+
+
+#endif
+
+#endif /* ZHJPrefixHeader_pch */
