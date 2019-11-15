@@ -25,6 +25,9 @@
 		BF2D55F72341E042000A1B6D /* ZHJScreenFitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55F62341E042000A1B6D /* ZHJScreenFitUtil.m */; };
 		BF2D55FA2341E291000A1B6D /* ZHJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55F92341E291000A1B6D /* ZHJBaseViewController.m */; };
 		BF2D55FD2341EBA6000A1B6D /* ZHJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55FC2341EBA6000A1B6D /* ZHJBaseNavigationController.m */; };
+		BF2D56002341FB84000A1B6D /* ZHJCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D55FF2341FB84000A1B6D /* ZHJCanvasViewController.m */; };
+		BF2D56032341FB94000A1B6D /* ZHJPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D56022341FB94000A1B6D /* ZHJPaletteViewController.m */; };
+		BF2D56062341FBA3000A1B6D /* ZHJThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D56052341FBA3000A1B6D /* ZHJThumbnailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,12 @@
 		BF2D55F92341E291000A1B6D /* ZHJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJBaseViewController.m; sourceTree = "<group>"; };
 		BF2D55FB2341EBA6000A1B6D /* ZHJBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJBaseNavigationController.h; sourceTree = "<group>"; };
 		BF2D55FC2341EBA6000A1B6D /* ZHJBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJBaseNavigationController.m; sourceTree = "<group>"; };
+		BF2D55FE2341FB84000A1B6D /* ZHJCanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJCanvasViewController.h; sourceTree = "<group>"; };
+		BF2D55FF2341FB84000A1B6D /* ZHJCanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJCanvasViewController.m; sourceTree = "<group>"; };
+		BF2D56012341FB94000A1B6D /* ZHJPaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJPaletteViewController.h; sourceTree = "<group>"; };
+		BF2D56022341FB94000A1B6D /* ZHJPaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJPaletteViewController.m; sourceTree = "<group>"; };
+		BF2D56042341FBA3000A1B6D /* ZHJThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJThumbnailViewController.h; sourceTree = "<group>"; };
+		BF2D56052341FBA3000A1B6D /* ZHJThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJThumbnailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +176,8 @@
 		BF2D55C82341D7A1000A1B6D /* ZHJCanvasViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D55FE2341FB84000A1B6D /* ZHJCanvasViewController.h */,
+				BF2D55FF2341FB84000A1B6D /* ZHJCanvasViewController.m */,
 			);
 			path = ZHJCanvasViewController;
 			sourceTree = "<group>";
@@ -208,6 +219,8 @@
 		BF2D55CF2341D848000A1B6D /* ZHJPaletteViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D56012341FB94000A1B6D /* ZHJPaletteViewController.h */,
+				BF2D56022341FB94000A1B6D /* ZHJPaletteViewController.m */,
 			);
 			path = ZHJPaletteViewController;
 			sourceTree = "<group>";
@@ -215,6 +228,8 @@
 		BF2D55D32341DA10000A1B6D /* ZHJThumbnailViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D56042341FBA3000A1B6D /* ZHJThumbnailViewController.h */,
+				BF2D56052341FBA3000A1B6D /* ZHJThumbnailViewController.m */,
 			);
 			path = ZHJThumbnailViewController;
 			sourceTree = "<group>";
@@ -472,9 +487,12 @@
 				BF2D55982341D273000A1B6D /* ViewController.m in Sources */,
 				BF2D55FA2341E291000A1B6D /* ZHJBaseViewController.m in Sources */,
 				BF2D55922341D273000A1B6D /* AppDelegate.m in Sources */,
+				BF2D56062341FBA3000A1B6D /* ZHJThumbnailViewController.m in Sources */,
 				BF2D559E2341D273000A1B6D /* ZHJPainter.xcdatamodeld in Sources */,
 				BF2D55DD2341DBB5000A1B6D /* UIViewController+Category.m in Sources */,
 				BF2D55952341D273000A1B6D /* SceneDelegate.m in Sources */,
+				BF2D56032341FB94000A1B6D /* ZHJPaletteViewController.m in Sources */,
+				BF2D56002341FB84000A1B6D /* ZHJCanvasViewController.m in Sources */,
 				BF2D55EA2341DC25000A1B6D /* UIImage+Category.m in Sources */,
 				BF2D55EC2341DC25000A1B6D /* UIColor+Category.m in Sources */,
 				BF2D55F72341E042000A1B6D /* ZHJScreenFitUtil.m in Sources */,
